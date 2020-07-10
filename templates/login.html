@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登陆</title>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data">
+        {{ form.csrf_token }}
+        <div>
+            <div>{{ form.image }}</div>
+            <div id="submit_1">{{ form.btn }}</div>
+        </div>
+    </form>
+
+<!--    <script>-->
+<!--        $(document).ready(function(){-->
+<!--            $("#submit_1").on('click', function () {-->
+<!--                -->
+<!--            })-->
+<!--        })-->
+<!--    </script>-->
+</body>
+</html>
